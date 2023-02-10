@@ -1,0 +1,21 @@
+// Estrutura do jogo
+
+function setup() {
+  createCanvas(500,400);
+
+  somDaTrilha.loop(); 
+  
+}
+
+function draw() {
+  background(imagemDaEstrada);
+mostraAtor();
+mostraCarro();
+movimentaCarro();
+movimentaAtor();
+resetaPosicaoCarro();
+verificaColisao();
+incluiPontos();
+marcaPonto();
+
+}
